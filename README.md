@@ -30,7 +30,9 @@ $ curl -OL https://raw.githubusercontent.com/IndrekHaav/wgmon-edgeos/main/wgmon.
 $ chmod +x wgmon.sh
 ```
 
-Then just run `./wgmon.sh` to see the output from `wg show` except with peer names instead of public keys.
+Then just run `./wgmon.sh` to see the output from `wg show` except with peer names instead of public keys:
+
+![Screenshot](https://raw.githubusercontent.com/IndrekHaav/wgmon-edgeos/main/screenshot.png)
 
 > **Note:** The script currently assumes that the WireGuard interface is `wg0`. If yours is different, then change it in the script. I might improve the script in the future to take the interface name as a command line argument.
 
@@ -46,4 +48,4 @@ Even better, add a bash alias to `~/.bashrc`:
 alias wgmon="watch -n 1 -t -c ~/wgmon.sh"
 ```
 
-Then `source .bashrc` (or log out and back in) to make it available, and you can simply run `wgmon` to see a constantly updating view of your WireGuard peers with friendly names!
+Then `source .bashrc` (or log out and back in) to make it available, and you can simply run `wgmon` to see a constantly updating overview of your WireGuard peers with friendly names!
