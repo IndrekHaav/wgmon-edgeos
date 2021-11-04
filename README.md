@@ -1,4 +1,4 @@
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/IndrekHaav/wgmon-edgeos/lint?label=lint)](https://github.com/IndrekHaav/wgmon-edgeos/actions/workflows/lint.yml)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/IndrekHaav/wgmon-edgeos/lint?label=lint)](https://github.com/IndrekHaav/wgmon-edgeos/actions/workflows/lint.yml) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/IndrekHaav/wgmon-edgeos/link-check?label=link-check)](https://github.com/IndrekHaav/wgmon-edgeos/actions/workflows/link-check.yml)
 
 # WireGuard monitor for EdgeOS
 
