@@ -7,7 +7,7 @@ cmd="/opt/vyatta/bin/vyatta-op-cmd-wrapper"
 interface="wg0"
 
 declare -A wg_peers
-while read -a peer; do
+while read -r -a peer; do
     pubkey="${peer[5]}"
     name="${peer[7]}"
     wg_peers["$pubkey"]="$name"
