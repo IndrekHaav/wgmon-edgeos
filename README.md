@@ -1,3 +1,5 @@
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/IndrekHaav/wgmon-edgeos/lint?label=lint)](https://github.com/IndrekHaav/wgmon-edgeos/actions/workflows/lint.yml)
+
 # WireGuard monitor for EdgeOS
 
 This is a simple helper script for monitoring WireGuard peers on Ubiquiti EdgeRouter devices. I wrote it to solve the tiny problem that WireGuard by itself has no concept of named peers and displays only their public keys. On an EdgeRouter, however, peer names can be added to the router's configuration:
