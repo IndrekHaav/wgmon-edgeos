@@ -24,8 +24,10 @@ So not a lot, sure, but then the output of `wg show` is already pretty informati
 
 ## Requirements
 
- 1. An EdgeRouter, obviously. The script will not work on just any Linux system with WireGuard (except maybe [VyOS](https://vyos.io/), since [it and EdgeOS are related](https://blog.vyos.io/versions-mystery-revealed)). The script has been tested on an ER-4 and ER-Lite with v2 firmware.
+ 1. An EdgeRouter, obviously.<sup>1</sup> The script has been tested on an ER-4 and ER-Lite with v2 firmware.
  2. WireGuard installed and configured. If not, go [here](https://github.com/WireGuard/wireguard-vyatta-ubnt) to get started.
+
+<small><sup>1)</sup> The script might also work on [VyOS](https://vyos.io/) (since [it and EdgeOS are related](https://blog.vyos.io/versions-mystery-revealed)), but it won't run on just any Linux system; for that, try [wgg.sh](https://github.com/FlyveHest/wg-friendly-peer-names/).</small>
 
 ## Usage
 
