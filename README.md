@@ -42,7 +42,7 @@ Then just run `./wgmon.sh` to see the output from `wg show` except with peer nam
 
 ![Screenshot](https://raw.githubusercontent.com/IndrekHaav/wgmon-edgeos/main/screenshot.png)
 
-> **Note:** The script currently assumes that the WireGuard interface is `wg0`. If yours is different, then change it in the script. I might improve the script in the future to take the interface name as a command line argument.
+> **Note:** The script by default shows all configured WireGuard interfaces and their peers. To show a single interface, add its name as a command line argument, e.g. `./wgmon.sh wg0`.
 
 ## Advanced usage
 
