@@ -40,7 +40,7 @@ $ chmod +x wgmon.sh
 
 Then just run `./wgmon.sh` to see the output from `wg show` except with peer names instead of public keys:
 
-![Screenshot](https://raw.githubusercontent.com/IndrekHaav/wgmon-edgeos/main/screenshot.png)
+![Screenshot](screenshot.png)
 
 > **Note:** The script by default shows all configured WireGuard interfaces and their peers. To show a single interface, add its name as a command line argument, e.g. `./wgmon.sh wg0`.
 
