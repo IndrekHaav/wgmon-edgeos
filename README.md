@@ -1,5 +1,7 @@
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/IndrekHaav/wgmon-edgeos/lint.yml?branch=main&label=lint)](https://github.com/IndrekHaav/wgmon-edgeos/actions/workflows/lint.yml) [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/IndrekHaav/wgmon-edgeos/link-check.yml?branch=main&label=link-check)](https://github.com/IndrekHaav/wgmon-edgeos/actions/workflows/link-check.yml)
 
+**Repository moved to: https://codeberg.org/indrek/wgmon-edgeos**
+
 # WireGuard monitor for EdgeOS
 
 This is a simple helper script for monitoring [WireGuard](https://www.wireguard.com/) peers on [Ubiquiti EdgeRouter](https://www.ui.com/edgemax/comparison/) devices.
